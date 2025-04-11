@@ -1,2 +1,5 @@
 # bioSite
-CSD340 2025 Web Development - BioSite
+# CSD 340 Web Development with HTML and CSS
+## Contributors
+- DeJanae Faison
+- Professor Sue Sampson
