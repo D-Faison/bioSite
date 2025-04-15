@@ -1,1 +1,38 @@
 /*DeJanae Faison bioSite Style*/
+
+header{
+    background-image:url(images/clouds.jpg) ;
+    background-size: 100% 200%;
+    padding: 30px;
+}
+
+#navbar{
+    overflow: hidden;
+    width: 100%;
+}
+
+#navbar > a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    float: right;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 4px ;
+    background-color: #EB9CED;
+    color: #002060;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px #4a1d6d;
+    transform: 0.3s;
+}
+
+#navbar > a:hover{
+    box-shadow: inset 5px 5px 5px #6f30a0a1;
+    
+}
+
+.pageHeader{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    padding-left: 25%;
+}
