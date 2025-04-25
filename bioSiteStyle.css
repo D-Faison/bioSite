@@ -59,7 +59,10 @@ body{
     text-decoration: none;
 }
 
-
+#essay{
+    display: inline;
+    text-align: left;
+}
 .card{
     display: grid;
     grid-template-columns: 20px 1fr;
@@ -87,14 +90,17 @@ body{
     align-items: center;
     padding-left: 35%;
 }
+ p{
+    text-indent: 50px;
+ }
 
 
 
 footer{
     background-color: #4a1d6d;
-    position: absolute;
+    position: fixed;
     width: 100%;
-    padding: 20px;
+    padding: 18px;
     bottom: 0;
 }
 
