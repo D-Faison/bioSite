@@ -1,0 +1,134 @@
+/*DeJanae Faison BioSite Style V2*/
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-image:url(images/clouds.jpg);
+    background-size: cover;
+    padding: 2%;
+    top: 0;
+}
+
+.nav > h1{
+    padding-left: 30px;
+    color: aliceblue;
+}
+
+.nav ul{
+
+    list-style: none;
+    display: flex;
+    margin: 0;
+    margin-right: 10%;
+    gap: 15px;
+    float: right;
+}
+.nav a{
+    background-color: #ffcbf7;
+    color: #480064;
+    font-weight: 500;
+    padding: 15px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    box-shadow: 5px 5px #480064;
+}
+.nav ul li a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav a:hover{
+    text-decoration: underline 2px;
+    box-shadow: 5px 10px #480064;
+}
+
+.nav a:active{
+    text-decoration: underline 2px;
+    text-decoration-style: double;
+    box-shadow: 5px 5px #480064 inset ;
+}
+
+h2{
+    color: #480064;
+    padding-left: 5%;
+    text-decoration: underline #6c47d3 2px;
+    text-underline-offset: 8px ;
+}
+
+
+
+/*Cards*/
+.card{
+    display: flex;
+    gap:20px;
+    background-color: #ffecfc;
+    border: #d347d3 solid;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 10px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px #00195e5b;
+}
+
+.card:hover{
+    background-color: #f8c6f1;
+}
+
+.card >img {
+    border-radius: 10%;
+}
+
+p{
+    text-indent: 50px;
+}
+
+
+
+.profileContainer{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+.profile{
+    border-right: #480064 2px solid;
+    padding: 10px;
+}
+
+.profile>img{
+    width: 380px;
+    height: auto;
+}
+
+/*Footer*/
+footer{
+    display: flex;
+    gap: 40%;
+    background-color: #480064 ;
+    color: white;
+    font-weight: 300;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.spacer{
+    padding: 100px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer > a:hover {
+    text-decoration: underline;
+}
